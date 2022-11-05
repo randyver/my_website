@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Gunting Batu Kertas</title>
+  </head>
+  <body>
+    <section class="game">
+      <div class="score" id="poin">
+        <div class="player-score">
+          <h2>Pemain</h2>
+          <p>0</p>
+        </div>
+        <div class="computer-score">
+          <h2>Computer</h2>
+          <p>0</p>
+        </div>
+      </div>
+
+      <div class="intro">
+        <h1>Gunting Batu Kertas</h1>
+        <button>Mulai</button>
+      </div>
+
+      <div class="match fadeOut">
+        <h2 class="winner">Ayo pilih!</h2>
+        <div class="hands">
+          <img class="player-hand" src="batu.png" width="300" height="300" alt="" />
+          <img class="computer-hand" src="batu.png" width="300" height="300" alt="" />
+        </div>
+        <div class="options">
+          <button class="batu">batu</button>
+          <button class="kertas">kertas</button>
+          <button class="gunting">gunting</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
